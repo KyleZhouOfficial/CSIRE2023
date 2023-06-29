@@ -119,14 +119,15 @@ void readPolyFile(const std::string& filename, std::vector<Point>& vertices, std
     inputFile.close();
 }
 
-int main()
+int main(int argc, char* argv[])
 {
     std::vector<Point> vertices;
     std::vector<Point> constraints;
     std::vector<Point> holes;
     std::vector<Vertex_handle> vertexHandles;
 
-    std::string polyFilename = "/Users/kylezhou/cgal/CGAL-5.5.2/data/A.poly";
+    //std::string polyFilename = "/Users/kylezhou/cgal/CGAL-5.5.2/data/A.poly";
+    std::string polyFilename = argv[1];
     readPolyFile(polyFilename, vertices, constraints, holes);
 
     CDT cdt;
@@ -150,7 +151,8 @@ int main()
 
 
     // Perform any further operations or computations with the CDT
-    std::string outputFile = "/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/output.obj";
+    //std::string outputFile = "/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/output.obj";
+    std::string outputFile = argv[2];
     std::ofstream objFile(outputFile);
     if (!objFile.is_open()) {
         std::cerr << "Failed to open OBJ file for writing: " << outputFile << std::endl;
