@@ -1,23 +1,31 @@
+
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
+#include <cmath>
+#include <stdlib.h>
+
+#define CGAL_MESH_2_OPTIMIZER_VERBOSE
 
 #include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
 #include <CGAL/Constrained_Delaunay_triangulation_2.h>
 #include <CGAL/Delaunay_mesher_2.h>
 #include <CGAL/Delaunay_mesh_face_base_2.h>
+#include <CGAL/Delaunay_mesh_vertex_base_2.h>
 #include <CGAL/Delaunay_mesh_size_criteria_2.h>
 #include <CGAL/boost/graph/IO/OBJ.h>
+#include <CGAL/lloyd_optimize_mesh_2.h>
 
 typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
-typedef CGAL::Triangulation_vertex_base_2<K> Vb;
+typedef CGAL::Delaunay_mesh_vertex_base_2<K> Vb;
 typedef CGAL::Delaunay_mesh_face_base_2<K> Fb;
 typedef CGAL::Triangulation_data_structure_2<Vb, Fb> Tds;
 typedef CGAL::Constrained_Delaunay_triangulation_2<K, Tds> CDT;
 typedef CGAL::Delaunay_mesh_size_criteria_2<CDT> Criteria;
 typedef CDT::Vertex_handle Vertex_handle;
 typedef CDT::Point Point;
+typedef CGAL::Delaunay_mesher_2<CDT, Criteria> Mesher;
 
 
 
@@ -127,7 +135,7 @@ int main(int argc, char* argv[])
     std::vector<Vertex_handle> vertexHandles;
 
     //std::string polyFilename = "/Users/kylezhou/cgal/CGAL-5.5.2/data/A.poly";
-    std::string polyFilename = argv[1];
+    std::string polyFilename = argv[0];
     readPolyFile(polyFilename, vertices, constraints, holes);
 
     CDT cdt;
@@ -145,17 +153,29 @@ int main(int argc, char* argv[])
         cdt.insert_constraint(vertexHandles[constraint.x()], vertexHandles[constraint.y()]);
     }
 
-    std::cout << "Meshing the domain..." << std::endl;
-    CGAL::refine_Delaunay_mesh_2(cdt, holes.begin(), holes.end(),
-                                 Criteria());
+    std::cout << atoi(argv[5]) << std::endl;
+    /*
+     * Shape Criteria: arcsin(1/2B) = 26 degrees
+     * B = 1.14058601635
+     * B = sqrt(1/4b)
+     * b = 0.192169262338
+     */
+    double B = 1 / (2*sin(atof(argv[2])));
+    double b = 1/ (pow(B, 2) * 4);
 
+    for(int i = 0; i < atoi(argv[5]); i++) {
+        CGAL::refine_Delaunay_mesh_2(cdt, holes.begin(), holes.end(),
+                                     Criteria(b, atof(argv[3])));
+
+        CGAL::lloyd_optimize_mesh_2(cdt, CGAL::parameters::max_iteration_number = atoi(argv[4]));
+    }
 
     // Perform any further operations or computations with the CDT
     //std::string outputFile = "/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/output.obj";
-    std::string outputFile = argv[2];
+    std::string outputFile = argv[6];
     std::ofstream objFile(outputFile);
     if (!objFile.is_open()) {
-        std::cerr << "Failed to open OBJ file for writing: " << outputFile << std::endl;
+        std::cout << "Failed to open OBJ file for writing: " << outputFile << std::endl;
         return 0;
     }
 

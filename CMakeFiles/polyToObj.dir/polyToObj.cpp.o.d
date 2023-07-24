@@ -421,6 +421,9 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/math.h \
   /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h \
   /usr/local/include/CGAL/Simple_cartesian.h \
   /usr/local/include/CGAL/Cartesian/Cartesian_base.h \
@@ -600,9 +603,6 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/unordered_set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__hash_table \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cmath \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/unordered_map \
@@ -2790,6 +2790,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o: \
   /usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp \
   /usr/local/include/CGAL/Delaunay_mesh_face_base_2.h \
   /usr/local/include/CGAL/Constrained_Delaunay_triangulation_face_base_2.h \
+  /usr/local/include/CGAL/Delaunay_mesh_vertex_base_2.h \
   /usr/local/include/CGAL/Delaunay_mesh_size_criteria_2.h \
   /usr/local/include/CGAL/Delaunay_mesh_criteria_2.h \
   /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
@@ -2823,4 +2824,153 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o: \
   /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
   /usr/local/include/boost/container/flat_map.hpp \
   /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
-  /usr/local/include/boost/container/detail/container_rebind.hpp
+  /usr/local/include/boost/container/detail/container_rebind.hpp \
+  /usr/local/include/CGAL/lloyd_optimize_mesh_2.h \
+  /usr/local/include/CGAL/Mesh_2/Mesh_global_optimizer_2.h \
+  /usr/local/include/CGAL/Timer.h /usr/local/include/CGAL/Timer_impl.h \
+  /usr/local/include/CGAL/Mesh_optimization_return_code.h \
+  /usr/local/include/CGAL/Constrained_voronoi_diagram_2.h \
+  /usr/local/include/boost/lambda/lambda.hpp \
+  /usr/local/include/boost/lambda/core.hpp \
+  /usr/local/include/boost/type_traits/transform_traits.hpp \
+  /usr/local/include/boost/lambda/detail/lambda_config.hpp \
+  /usr/local/include/boost/lambda/detail/lambda_fwd.hpp \
+  /usr/local/include/boost/lambda/detail/arity_code.hpp \
+  /usr/local/include/boost/lambda/detail/actions.hpp \
+  /usr/local/include/boost/lambda/detail/lambda_traits.hpp \
+  /usr/local/include/boost/type_traits/object_traits.hpp \
+  /usr/local/include/boost/lambda/detail/function_adaptors.hpp \
+  /usr/local/include/boost/lambda/detail/return_type_traits.hpp \
+  /usr/local/include/boost/lambda/detail/select_functions.hpp \
+  /usr/local/include/boost/lambda/detail/lambda_functor_base.hpp \
+  /usr/local/include/boost/lambda/detail/lambda_functors.hpp \
+  /usr/local/include/boost/lambda/detail/ret.hpp \
+  /usr/local/include/boost/lambda/detail/operator_actions.hpp \
+  /usr/local/include/boost/lambda/detail/operator_lambda_func_base.hpp \
+  /usr/local/include/boost/lambda/detail/operator_return_type_traits.hpp \
+  /usr/local/include/boost/lambda/detail/is_instance_of.hpp \
+  /usr/local/include/boost/preprocessor/repeat_2nd.hpp \
+  /usr/local/include/boost/indirect_reference.hpp \
+  /usr/local/include/boost/detail/is_incrementable.hpp \
+  /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+  /usr/local/include/boost/pointee.hpp \
+  /usr/local/include/boost/detail/container_fwd.hpp \
+  /usr/local/include/boost/lambda/detail/operators.hpp \
+  /usr/local/include/boost/lambda/detail/member_ptr.hpp \
+  /usr/local/include/boost/lambda/bind.hpp \
+  /usr/local/include/boost/lambda/detail/bind_functions.hpp \
+  /usr/local/include/boost/format.hpp \
+  /usr/local/include/boost/format/detail/compat_workarounds.hpp \
+  /usr/local/include/boost/format/detail/config_macros.hpp \
+  /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /usr/local/include/boost/format/detail/workarounds_stlport.hpp \
+  /usr/local/include/boost/format/format_fwd.hpp \
+  /usr/local/include/boost/format/internals_fwd.hpp \
+  /usr/local/include/boost/format/internals.hpp \
+  /usr/local/include/boost/core/ignore_unused.hpp \
+  /usr/local/include/boost/format/alt_sstream.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/format/alt_sstream_impl.hpp \
+  /usr/local/include/boost/format/format_class.hpp \
+  /usr/local/include/boost/format/exceptions.hpp \
+  /usr/local/include/boost/format/format_implementation.hpp \
+  /usr/local/include/boost/format/group.hpp \
+  /usr/local/include/boost/format/feed_args.hpp \
+  /usr/local/include/boost/format/detail/msvc_disambiguater.hpp \
+  /usr/local/include/boost/format/parsing.hpp \
+  /usr/local/include/boost/format/free_funcs.hpp \
+  /usr/local/include/boost/format/detail/unset_macros.hpp \
+  /usr/local/include/CGAL/Mesh_2/Lloyd_move_2.h \
+  /usr/local/include/CGAL/Mesh_2/Uniform_sizing_field_2.h \
+  /usr/local/include/CGAL/Mesh_2/Sizing_field_2.h \
+  /usr/local/include/CGAL/Mesh_2/Mesh_sizing_field.h \
+  /usr/local/include/CGAL/boost/parameter.h \
+  /usr/local/include/boost/parameter/name.hpp \
+  /usr/local/include/boost/parameter/aux_/name.hpp \
+  /usr/local/include/boost/parameter/value_type.hpp \
+  /usr/local/include/boost/parameter/aux_/void.hpp \
+  /usr/local/include/boost/parameter/config.hpp \
+  /usr/local/include/boost/parameter/aux_/is_placeholder.hpp \
+  /usr/local/include/boost/parameter/aux_/result_of0.hpp \
+  /usr/local/include/boost/parameter/aux_/use_default_tag.hpp \
+  /usr/local/include/boost/parameter/aux_/lambda_tag.hpp \
+  /usr/local/include/boost/parameter/binding.hpp \
+  /usr/local/include/boost/parameter/keyword.hpp \
+  /usr/local/include/boost/parameter/aux_/tag.hpp \
+  /usr/local/include/boost/parameter/aux_/unwrap_cv_reference.hpp \
+  /usr/local/include/boost/parameter/aux_/yesno.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/nullptr.hpp \
+  /usr/local/include/boost/parameter/aux_/tagged_argument.hpp \
+  /usr/local/include/boost/parameter/keyword_fwd.hpp \
+  /usr/local/include/boost/parameter/aux_/tagged_argument_fwd.hpp \
+  /usr/local/include/boost/parameter/aux_/is_tagged_argument.hpp \
+  /usr/local/include/boost/parameter/aux_/default.hpp \
+  /usr/local/include/boost/parameter/aux_/arg_list.hpp \
+  /usr/local/include/boost/parameter/aux_/is_maybe.hpp \
+  /usr/local/include/boost/parameter/aux_/parameter_requirements.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/parameter_requirements.hpp \
+  /usr/local/include/boost/parameter/aux_/augment_predicate.hpp \
+  /usr/local/include/boost/parameter/aux_/has_nested_template_fn.hpp \
+  /usr/local/include/boost/mpl/count_fwd.hpp \
+  /usr/local/include/boost/mpl/order_fwd.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/qualifier.hpp \
+  /usr/local/include/boost/preprocessor/facilities/is_empty.hpp \
+  /usr/local/include/boost/preprocessor/facilities/is_empty_variadic.hpp \
+  /usr/local/include/boost/preprocessor/punctuation/is_begin_parens.hpp \
+  /usr/local/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp \
+  /usr/local/include/boost/preprocessor/facilities/detail/is_empty.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/is_binary.hpp \
+  /usr/local/include/boost/parameter/template_keyword.hpp \
+  /usr/local/include/boost/parameter/aux_/template_keyword.hpp \
+  /usr/local/include/boost/parameter/preprocessor.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/forwarding_overloads.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/parenthesized_type.hpp \
+  /usr/local/include/boost/parameter/aux_/pp_impl/argument_pack.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/tag_keyword_arg.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/make_arg_list.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/unmatched_argument.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/tag_type.hpp \
+  /usr/local/include/boost/parameter/deduced.hpp \
+  /usr/local/include/boost/parameter/aux_/use_default.hpp \
+  /usr/local/include/boost/parameter/required.hpp \
+  /usr/local/include/boost/parameter/optional.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/is_named_argument.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/insert_tagged.hpp \
+  /usr/local/include/boost/parameter/aux_/set.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/deduce_tag.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/tag_deduced.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/make_parameter_spec_items.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/make_deduced_items.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/deduced_item.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/satisfies.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/as_parameter_requirements.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/predicate.hpp \
+  /usr/local/include/boost/parameter/aux_/always_true_predicate.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/make_items.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/item.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_name.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/is_nullary.hpp \
+  /usr/local/include/boost/preprocessor/detail/is_nullary.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_forward_match.hpp \
+  /usr/local/include/boost/parameter/aux_/pp_impl/match.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/arity_range.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/argument_specs.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/specification.hpp \
+  /usr/local/include/boost/parameter/aux_/pp_impl/unwrap_predicate.hpp \
+  /usr/local/include/boost/parameter/parameters.hpp \
+  /usr/local/include/boost/parameter/aux_/pack/tag_template_keyword_arg.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/parenthesized_return_type.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/flatten.hpp \
+  /usr/local/include/boost/preprocessor/detail/split.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_trailing.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/for_each.hpp \
+  /usr/local/include/boost/preprocessor/repetition/deduce_r.hpp \
+  /usr/local/include/boost/preprocessor/seq/for_each.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_dispatch_layer.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/split_args.hpp \
+  /usr/local/include/boost/preprocessor/seq/push_back.hpp \
+  /usr/local/include/boost/preprocessor/seq/first_n.hpp \
+  /usr/local/include/boost/preprocessor/seq/detail/split.hpp \
+  /usr/local/include/boost/preprocessor/seq/detail/limits/split_256.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_dispatch_tuple.hpp \
+  /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_cast.hpp

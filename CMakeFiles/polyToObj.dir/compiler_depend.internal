@@ -614,11 +614,13 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/Constrained_Delaunay_triangulation_face_base_2.h
  /usr/local/include/CGAL/Constrained_triangulation_2.h
  /usr/local/include/CGAL/Constrained_triangulation_face_base_2.h
+ /usr/local/include/CGAL/Constrained_voronoi_diagram_2.h
  /usr/local/include/CGAL/Container_helper.h
  /usr/local/include/CGAL/Default.h
  /usr/local/include/CGAL/Delaunay_mesh_criteria_2.h
  /usr/local/include/CGAL/Delaunay_mesh_face_base_2.h
  /usr/local/include/CGAL/Delaunay_mesh_size_criteria_2.h
+ /usr/local/include/CGAL/Delaunay_mesh_vertex_base_2.h
  /usr/local/include/CGAL/Delaunay_mesher_2.h
  /usr/local/include/CGAL/Dimension.h
  /usr/local/include/CGAL/Direction_2.h
@@ -991,10 +993,16 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/MP_Float_impl.h
  /usr/local/include/CGAL/Mesh_2/Clusters.h
  /usr/local/include/CGAL/Mesh_2/Face_badness.h
+ /usr/local/include/CGAL/Mesh_2/Lloyd_move_2.h
+ /usr/local/include/CGAL/Mesh_2/Mesh_global_optimizer_2.h
+ /usr/local/include/CGAL/Mesh_2/Mesh_sizing_field.h
  /usr/local/include/CGAL/Mesh_2/Refine_edges.h
  /usr/local/include/CGAL/Mesh_2/Refine_edges_visitor.h
  /usr/local/include/CGAL/Mesh_2/Refine_edges_with_clusters.h
  /usr/local/include/CGAL/Mesh_2/Refine_faces.h
+ /usr/local/include/CGAL/Mesh_2/Sizing_field_2.h
+ /usr/local/include/CGAL/Mesh_2/Uniform_sizing_field_2.h
+ /usr/local/include/CGAL/Mesh_optimization_return_code.h
  /usr/local/include/CGAL/Mesher_level.h
  /usr/local/include/CGAL/Mesher_level_default_implementations.h
  /usr/local/include/CGAL/Mesher_level_visitors.h
@@ -1051,6 +1059,8 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/Sqrt_extension_fwd.h
  /usr/local/include/CGAL/Tetrahedron_3.h
  /usr/local/include/CGAL/Time_stamper.h
+ /usr/local/include/CGAL/Timer.h
+ /usr/local/include/CGAL/Timer_impl.h
  /usr/local/include/CGAL/Triangle_2.h
  /usr/local/include/CGAL/Triangle_3.h
  /usr/local/include/CGAL/Triangulation_2.h
@@ -1097,6 +1107,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/boost/graph/properties.h
  /usr/local/include/CGAL/boost/iterator/counting_iterator.hpp
  /usr/local/include/CGAL/boost/iterator/transform_iterator.hpp
+ /usr/local/include/CGAL/boost/parameter.h
  /usr/local/include/CGAL/boost_mp.h
  /usr/local/include/CGAL/circulator.h
  /usr/local/include/CGAL/circulator_bases.h
@@ -1137,6 +1148,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
+ /usr/local/include/CGAL/lloyd_optimize_mesh_2.h
  /usr/local/include/CGAL/long_double.h
  /usr/local/include/CGAL/long_long.h
  /usr/local/include/CGAL/memory.h
@@ -1352,6 +1364,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/core/demangle.hpp
  /usr/local/include/boost/core/enable_if.hpp
  /usr/local/include/boost/core/explicit_operator_bool.hpp
+ /usr/local/include/boost/core/ignore_unused.hpp
  /usr/local/include/boost/core/no_exceptions_support.hpp
  /usr/local/include/boost/core/noncopyable.hpp
  /usr/local/include/boost/core/nvp.hpp
@@ -1372,7 +1385,9 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/describe/modifiers.hpp
  /usr/local/include/boost/detail/basic_pointerbuf.hpp
  /usr/local/include/boost/detail/call_traits.hpp
+ /usr/local/include/boost/detail/container_fwd.hpp
  /usr/local/include/boost/detail/indirect_traits.hpp
+ /usr/local/include/boost/detail/is_incrementable.hpp
  /usr/local/include/boost/detail/lcast_precision.hpp
  /usr/local/include/boost/detail/numeric_traits.hpp
  /usr/local/include/boost/detail/reference_content.hpp
@@ -1382,6 +1397,25 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/exception/exception.hpp
  /usr/local/include/boost/foreach.hpp
  /usr/local/include/boost/foreach_fwd.hpp
+ /usr/local/include/boost/format.hpp
+ /usr/local/include/boost/format/alt_sstream.hpp
+ /usr/local/include/boost/format/alt_sstream_impl.hpp
+ /usr/local/include/boost/format/detail/compat_workarounds.hpp
+ /usr/local/include/boost/format/detail/config_macros.hpp
+ /usr/local/include/boost/format/detail/msvc_disambiguater.hpp
+ /usr/local/include/boost/format/detail/unset_macros.hpp
+ /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp
+ /usr/local/include/boost/format/detail/workarounds_stlport.hpp
+ /usr/local/include/boost/format/exceptions.hpp
+ /usr/local/include/boost/format/feed_args.hpp
+ /usr/local/include/boost/format/format_class.hpp
+ /usr/local/include/boost/format/format_fwd.hpp
+ /usr/local/include/boost/format/format_implementation.hpp
+ /usr/local/include/boost/format/free_funcs.hpp
+ /usr/local/include/boost/format/group.hpp
+ /usr/local/include/boost/format/internals.hpp
+ /usr/local/include/boost/format/internals_fwd.hpp
+ /usr/local/include/boost/format/parsing.hpp
  /usr/local/include/boost/functional/hash.hpp
  /usr/local/include/boost/functional/hash/hash.hpp
  /usr/local/include/boost/functional/hash_fwd.hpp
@@ -1609,6 +1643,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/graph/properties.hpp
  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp
  /usr/local/include/boost/graph/property_maps/null_property_map.hpp
+ /usr/local/include/boost/indirect_reference.hpp
  /usr/local/include/boost/integer.hpp
  /usr/local/include/boost/integer/common_factor_ct.hpp
  /usr/local/include/boost/integer/common_factor_rt.hpp
@@ -1653,6 +1688,27 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/iterator/reverse_iterator.hpp
  /usr/local/include/boost/iterator/transform_iterator.hpp
  /usr/local/include/boost/iterator/zip_iterator.hpp
+ /usr/local/include/boost/lambda/bind.hpp
+ /usr/local/include/boost/lambda/core.hpp
+ /usr/local/include/boost/lambda/detail/actions.hpp
+ /usr/local/include/boost/lambda/detail/arity_code.hpp
+ /usr/local/include/boost/lambda/detail/bind_functions.hpp
+ /usr/local/include/boost/lambda/detail/function_adaptors.hpp
+ /usr/local/include/boost/lambda/detail/is_instance_of.hpp
+ /usr/local/include/boost/lambda/detail/lambda_config.hpp
+ /usr/local/include/boost/lambda/detail/lambda_functor_base.hpp
+ /usr/local/include/boost/lambda/detail/lambda_functors.hpp
+ /usr/local/include/boost/lambda/detail/lambda_fwd.hpp
+ /usr/local/include/boost/lambda/detail/lambda_traits.hpp
+ /usr/local/include/boost/lambda/detail/member_ptr.hpp
+ /usr/local/include/boost/lambda/detail/operator_actions.hpp
+ /usr/local/include/boost/lambda/detail/operator_lambda_func_base.hpp
+ /usr/local/include/boost/lambda/detail/operator_return_type_traits.hpp
+ /usr/local/include/boost/lambda/detail/operators.hpp
+ /usr/local/include/boost/lambda/detail/ret.hpp
+ /usr/local/include/boost/lambda/detail/return_type_traits.hpp
+ /usr/local/include/boost/lambda/detail/select_functions.hpp
+ /usr/local/include/boost/lambda/lambda.hpp
  /usr/local/include/boost/lexical_cast.hpp
  /usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp
  /usr/local/include/boost/lexical_cast/detail/converter_lexical.hpp
@@ -1964,6 +2020,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/mpl/contains.hpp
  /usr/local/include/boost/mpl/contains_fwd.hpp
  /usr/local/include/boost/mpl/copy.hpp
+ /usr/local/include/boost/mpl/count_fwd.hpp
  /usr/local/include/boost/mpl/deref.hpp
  /usr/local/include/boost/mpl/distance.hpp
  /usr/local/include/boost/mpl/distance_fwd.hpp
@@ -2047,6 +2104,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/mpl/not.hpp
  /usr/local/include/boost/mpl/numeric_cast.hpp
  /usr/local/include/boost/mpl/or.hpp
+ /usr/local/include/boost/mpl/order_fwd.hpp
  /usr/local/include/boost/mpl/pair.hpp
  /usr/local/include/boost/mpl/pair_view.hpp
  /usr/local/include/boost/mpl/placeholders.hpp
@@ -2273,8 +2331,82 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/optional/detail/optional_trivially_copyable_base.hpp
  /usr/local/include/boost/optional/optional.hpp
  /usr/local/include/boost/optional/optional_fwd.hpp
+ /usr/local/include/boost/parameter/aux_/always_true_predicate.hpp
+ /usr/local/include/boost/parameter/aux_/arg_list.hpp
+ /usr/local/include/boost/parameter/aux_/augment_predicate.hpp
+ /usr/local/include/boost/parameter/aux_/default.hpp
+ /usr/local/include/boost/parameter/aux_/has_nested_template_fn.hpp
+ /usr/local/include/boost/parameter/aux_/is_maybe.hpp
+ /usr/local/include/boost/parameter/aux_/is_placeholder.hpp
+ /usr/local/include/boost/parameter/aux_/is_tagged_argument.hpp
+ /usr/local/include/boost/parameter/aux_/lambda_tag.hpp
+ /usr/local/include/boost/parameter/aux_/name.hpp
+ /usr/local/include/boost/parameter/aux_/pack/as_parameter_requirements.hpp
+ /usr/local/include/boost/parameter/aux_/pack/deduce_tag.hpp
+ /usr/local/include/boost/parameter/aux_/pack/deduced_item.hpp
+ /usr/local/include/boost/parameter/aux_/pack/insert_tagged.hpp
+ /usr/local/include/boost/parameter/aux_/pack/is_named_argument.hpp
+ /usr/local/include/boost/parameter/aux_/pack/item.hpp
+ /usr/local/include/boost/parameter/aux_/pack/make_arg_list.hpp
+ /usr/local/include/boost/parameter/aux_/pack/make_deduced_items.hpp
+ /usr/local/include/boost/parameter/aux_/pack/make_items.hpp
+ /usr/local/include/boost/parameter/aux_/pack/make_parameter_spec_items.hpp
+ /usr/local/include/boost/parameter/aux_/pack/parameter_requirements.hpp
+ /usr/local/include/boost/parameter/aux_/pack/predicate.hpp
+ /usr/local/include/boost/parameter/aux_/pack/satisfies.hpp
+ /usr/local/include/boost/parameter/aux_/pack/tag_deduced.hpp
+ /usr/local/include/boost/parameter/aux_/pack/tag_keyword_arg.hpp
+ /usr/local/include/boost/parameter/aux_/pack/tag_template_keyword_arg.hpp
+ /usr/local/include/boost/parameter/aux_/pack/tag_type.hpp
+ /usr/local/include/boost/parameter/aux_/pack/unmatched_argument.hpp
+ /usr/local/include/boost/parameter/aux_/parameter_requirements.hpp
+ /usr/local/include/boost/parameter/aux_/pp_impl/argument_pack.hpp
+ /usr/local/include/boost/parameter/aux_/pp_impl/match.hpp
+ /usr/local/include/boost/parameter/aux_/pp_impl/unwrap_predicate.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/argument_specs.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/arity_range.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/flatten.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/for_each.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/forwarding_overloads.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_cast.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_dispatch_layer.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_dispatch_tuple.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_forward_match.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/function_name.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/parenthesized_return_type.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/parenthesized_type.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/specification.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/impl/split_args.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/is_binary.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/is_nullary.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/nullptr.hpp
+ /usr/local/include/boost/parameter/aux_/preprocessor/qualifier.hpp
+ /usr/local/include/boost/parameter/aux_/result_of0.hpp
+ /usr/local/include/boost/parameter/aux_/set.hpp
+ /usr/local/include/boost/parameter/aux_/tag.hpp
+ /usr/local/include/boost/parameter/aux_/tagged_argument.hpp
+ /usr/local/include/boost/parameter/aux_/tagged_argument_fwd.hpp
+ /usr/local/include/boost/parameter/aux_/template_keyword.hpp
+ /usr/local/include/boost/parameter/aux_/unwrap_cv_reference.hpp
+ /usr/local/include/boost/parameter/aux_/use_default.hpp
+ /usr/local/include/boost/parameter/aux_/use_default_tag.hpp
+ /usr/local/include/boost/parameter/aux_/void.hpp
+ /usr/local/include/boost/parameter/aux_/yesno.hpp
+ /usr/local/include/boost/parameter/binding.hpp
+ /usr/local/include/boost/parameter/config.hpp
+ /usr/local/include/boost/parameter/deduced.hpp
+ /usr/local/include/boost/parameter/keyword.hpp
+ /usr/local/include/boost/parameter/keyword_fwd.hpp
+ /usr/local/include/boost/parameter/name.hpp
+ /usr/local/include/boost/parameter/optional.hpp
+ /usr/local/include/boost/parameter/parameters.hpp
+ /usr/local/include/boost/parameter/preprocessor.hpp
+ /usr/local/include/boost/parameter/required.hpp
+ /usr/local/include/boost/parameter/template_keyword.hpp
+ /usr/local/include/boost/parameter/value_type.hpp
  /usr/local/include/boost/pending/detail/property.hpp
  /usr/local/include/boost/pending/property.hpp
+ /usr/local/include/boost/pointee.hpp
  /usr/local/include/boost/predef.h
  /usr/local/include/boost/predef/architecture.h
  /usr/local/include/boost/predef/architecture/alpha.h
@@ -2451,16 +2583,21 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/preprocessor/detail/auto_rec.hpp
  /usr/local/include/boost/preprocessor/detail/check.hpp
  /usr/local/include/boost/preprocessor/detail/is_binary.hpp
+ /usr/local/include/boost/preprocessor/detail/is_nullary.hpp
  /usr/local/include/boost/preprocessor/detail/limits/auto_rec_256.hpp
+ /usr/local/include/boost/preprocessor/detail/split.hpp
  /usr/local/include/boost/preprocessor/empty.hpp
  /usr/local/include/boost/preprocessor/enum.hpp
  /usr/local/include/boost/preprocessor/enum_params.hpp
  /usr/local/include/boost/preprocessor/enum_shifted_params.hpp
  /usr/local/include/boost/preprocessor/facilities/check_empty.hpp
+ /usr/local/include/boost/preprocessor/facilities/detail/is_empty.hpp
  /usr/local/include/boost/preprocessor/facilities/empty.hpp
  /usr/local/include/boost/preprocessor/facilities/expand.hpp
  /usr/local/include/boost/preprocessor/facilities/identity.hpp
  /usr/local/include/boost/preprocessor/facilities/intercept.hpp
+ /usr/local/include/boost/preprocessor/facilities/is_empty.hpp
+ /usr/local/include/boost/preprocessor/facilities/is_empty_variadic.hpp
  /usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp
  /usr/local/include/boost/preprocessor/facilities/overload.hpp
  /usr/local/include/boost/preprocessor/identity.hpp
@@ -2485,13 +2622,18 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/preprocessor/logical/not.hpp
  /usr/local/include/boost/preprocessor/punctuation/comma.hpp
  /usr/local/include/boost/preprocessor/punctuation/comma_if.hpp
+ /usr/local/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp
+ /usr/local/include/boost/preprocessor/punctuation/is_begin_parens.hpp
  /usr/local/include/boost/preprocessor/repeat.hpp
+ /usr/local/include/boost/preprocessor/repeat_2nd.hpp
+ /usr/local/include/boost/preprocessor/repetition/deduce_r.hpp
  /usr/local/include/boost/preprocessor/repetition/detail/for.hpp
  /usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp
  /usr/local/include/boost/preprocessor/repetition/enum.hpp
  /usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp
  /usr/local/include/boost/preprocessor/repetition/enum_params.hpp
  /usr/local/include/boost/preprocessor/repetition/enum_shifted_params.hpp
+ /usr/local/include/boost/preprocessor/repetition/enum_trailing.hpp
  /usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp
  /usr/local/include/boost/preprocessor/repetition/for.hpp
  /usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp
@@ -2500,14 +2642,19 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp
  /usr/local/include/boost/preprocessor/seq/cat.hpp
  /usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp
+ /usr/local/include/boost/preprocessor/seq/detail/limits/split_256.hpp
+ /usr/local/include/boost/preprocessor/seq/detail/split.hpp
  /usr/local/include/boost/preprocessor/seq/elem.hpp
  /usr/local/include/boost/preprocessor/seq/enum.hpp
+ /usr/local/include/boost/preprocessor/seq/first_n.hpp
  /usr/local/include/boost/preprocessor/seq/fold_left.hpp
+ /usr/local/include/boost/preprocessor/seq/for_each.hpp
  /usr/local/include/boost/preprocessor/seq/for_each_i.hpp
  /usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp
  /usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp
  /usr/local/include/boost/preprocessor/seq/limits/fold_left_256.hpp
  /usr/local/include/boost/preprocessor/seq/limits/size_256.hpp
+ /usr/local/include/boost/preprocessor/seq/push_back.hpp
  /usr/local/include/boost/preprocessor/seq/seq.hpp
  /usr/local/include/boost/preprocessor/seq/size.hpp
  /usr/local/include/boost/preprocessor/seq/transform.hpp
@@ -2624,6 +2771,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/range/size_type.hpp
  /usr/local/include/boost/range/value_type.hpp
  /usr/local/include/boost/ref.hpp
+ /usr/local/include/boost/shared_ptr.hpp
  /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp
  /usr/local/include/boost/smart_ptr/detail/local_counted_base.hpp
  /usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp
@@ -2675,6 +2823,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/type_traits/cv_traits.hpp
  /usr/local/include/boost/type_traits/decay.hpp
  /usr/local/include/boost/type_traits/declval.hpp
+ /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp
  /usr/local/include/boost/type_traits/detail/config.hpp
  /usr/local/include/boost/type_traits/detail/has_binary_operator.hpp
  /usr/local/include/boost/type_traits/detail/has_postfix_operator.hpp
@@ -2799,6 +2948,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/type_traits/make_unsigned.hpp
  /usr/local/include/boost/type_traits/make_void.hpp
  /usr/local/include/boost/type_traits/negation.hpp
+ /usr/local/include/boost/type_traits/object_traits.hpp
  /usr/local/include/boost/type_traits/promote.hpp
  /usr/local/include/boost/type_traits/rank.hpp
  /usr/local/include/boost/type_traits/remove_all_extents.hpp
@@ -2811,6 +2961,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/boost/type_traits/remove_reference.hpp
  /usr/local/include/boost/type_traits/remove_volatile.hpp
  /usr/local/include/boost/type_traits/same_traits.hpp
+ /usr/local/include/boost/type_traits/transform_traits.hpp
  /usr/local/include/boost/type_traits/type_identity.hpp
  /usr/local/include/boost/type_traits/type_with_alignment.hpp
  /usr/local/include/boost/utility.hpp
