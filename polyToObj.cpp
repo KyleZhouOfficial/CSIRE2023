@@ -133,9 +133,15 @@ int main(int argc, char* argv[])
     std::vector<Point> constraints;
     std::vector<Point> holes;
     std::vector<Vertex_handle> vertexHandles;
+//    argv[1] = "/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/data/part0.poly";
+//    argv[2] = "26";
+//    argv[3] = "0.1";
+//    argv[4] = "2";
+//    argv[5] = "3";
+//    argv[6] = "/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/output/part0.obj";
 
-    //std::string polyFilename = "/Users/kylezhou/cgal/CGAL-5.5.2/data/A.poly";
-    std::string polyFilename = argv[0];
+    //std::string polyFilename = "/Users/kylezhou/cgal/CGAL-5.5.2/data/part0.poly";
+    std::string polyFilename = argv[1];
     readPolyFile(polyFilename, vertices, constraints, holes);
 
     CDT cdt;
@@ -153,19 +159,19 @@ int main(int argc, char* argv[])
         cdt.insert_constraint(vertexHandles[constraint.x()], vertexHandles[constraint.y()]);
     }
 
-    std::cout << atoi(argv[5]) << std::endl;
+    //std::cout << atoi(argv[5]) << std::endl;
     /*
      * Shape Criteria: arcsin(1/2B) = 26 degrees
      * B = 1.14058601635
      * B = sqrt(1/4b)
      * b = 0.192169262338
      */
-    double B = 1 / (2*sin(atof(argv[2])));
-    double b = 1/ (pow(B, 2) * 4);
+    double B = 1 / (2*sin(atof(argv[2]) * (M_PI/180)));
+    double bInput = 1 / (pow(B, 2) * 4);
 
     for(int i = 0; i < atoi(argv[5]); i++) {
         CGAL::refine_Delaunay_mesh_2(cdt, holes.begin(), holes.end(),
-                                     Criteria(b, atof(argv[3])));
+                                     Criteria(bInput, atof(argv[3])));
 
         CGAL::lloyd_optimize_mesh_2(cdt, CGAL::parameters::max_iteration_number = atoi(argv[4]));
     }
@@ -189,7 +195,6 @@ int main(int argc, char* argv[])
         objFile << "v " << vertex->point().x() << " " << vertex->point().y() << " 0" << std::endl;
         ++index;
     }
-
     // Write faces to the OBJ file
     for (auto face = cdt.finite_faces_begin(); face != cdt.finite_faces_end(); ++face) {
         auto v1 = vertexIndices[face->vertex(0)];
@@ -197,6 +202,7 @@ int main(int argc, char* argv[])
         auto v3 = vertexIndices[face->vertex(2)];
         objFile << "f " << v1 << " " << v2 << " " << v3 << std::endl;
     }
+    std::cout << "Here " << outputFile << std::endl;
 
     objFile.close();
 

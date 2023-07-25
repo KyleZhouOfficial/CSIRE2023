@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="POLYTOOBJ"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.82.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.82.0\;CMake Files\..\..\..\opt\;CMake Files\..\..\..\opt\anaconda3\;CMake Files\..\..\..\opt\anaconda3\lib\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Svg\;CMake Files\resources\;CMake Files\icons\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgal_check_build_system">
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 cgal_check_build_system"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGAL_Qt5_moc_and_resources">
+				<Option output="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/libCGAL_Qt5_moc_and_resources.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/CGAL_Qt5_moc_and_resources_autogen/include"/>
+					<Add directory="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtOpenGL"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtSvg"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 CGAL_Qt5_moc_and_resources"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGAL_Qt5_moc_and_resources/fast">
+				<Option output="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/libCGAL_Qt5_moc_and_resources.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/CGAL_Qt5_moc_and_resources_autogen/include"/>
+					<Add directory="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtOpenGL"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtSvg"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 CGAL_Qt5_moc_and_resources/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="polyToObj">
+				<Option output="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/polyToObj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add option="-DCGAL_DATA_DIR=&quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../data&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DCGAL_USE_BASIC_VIEWER"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtOpenGL"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtSvg"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 polyToObj"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="polyToObj/fast">
+				<Option output="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/polyToObj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add option="-DCGAL_DATA_DIR=&quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../data&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DCGAL_USE_BASIC_VIEWER"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtOpenGL"/>
+					<Add directory="/Users/kylezhou/opt/anaconda3/include/qt/QtSvg"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 polyToObj/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ALL_CGAL_TARGETS">
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 ALL_CGAL_TARGETS"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGAL_Qt5_moc_and_resources_autogen">
+				<Option working_dir="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 CGAL_Qt5_moc_and_resources_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/CGAL_Qt5_moc_and_resources_autogen/mocs_compilation.cpp">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/icons/File.qrc">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/icons/Input.qrc">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/icons/Triangulation_2.qrc">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/polyToObj.cpp">
+			<Option target="polyToObj"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/qrc_CGAL.cpp">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/qrc_File.cpp">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/qrc_Input.cpp">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/qrc_Triangulation_2.cpp">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/resources/CGAL.qrc">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/ui_ImageInterface.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/DemosMainWindow.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/GraphicsItem.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/GraphicsViewInput.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/GraphicsViewNavigation.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/camera.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/frame.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/image_interface.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/keyFrameInterpolator.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/manipulatedCameraFrame.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/manipulatedFrame.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/qglviewer.h">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/usr/local/include/CGAL/Qt/resources/ImageInterface.ui">
+			<Option target="CGAL_Qt5_moc_and_resources"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGALConfigBuildVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGALConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_CreateSingleSourceCGALProgram.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_Qt5_moc_and_resource_files.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_SCM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_SetupBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_SetupCGAL_Qt5Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_SetupGMP.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_add_test.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_setup_target_dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/CGAL_target_use_TBB.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/FindGMP.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/FindGMPXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/CGAL/FindMPFR.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/Boost-1.82.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.82.0\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/Boost-1.82.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.82.0\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/boost_headers-1.82.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.82.0\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../../../usr/local/lib/cmake/boost_headers-1.82.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.82.0\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/../../../opt/anaconda3/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\anaconda3\lib\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/resources/CGAL.qrc">
+			<Option virtualFolder="CMake Files\resources\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/icons/File.qrc">
+			<Option virtualFolder="CMake Files\icons\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/icons/Input.qrc">
+			<Option virtualFolder="CMake Files\icons\"/>
+		</Unit>
+		<Unit filename="/Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/icons/Triangulation_2.qrc">
+			<Option virtualFolder="CMake Files\icons\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -374,6 +374,9 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdarg.h \
+  /Users/kylezhou/cgal/CGAL-5.5.2/polyToObj/ui_ImageInterface.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtCore/QVariant \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qalgorithms.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qarraydata.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qatomic.h \
@@ -416,6 +419,7 @@
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qrect.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qrefcount.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qregexp.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qregularexpression.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qscopedpointer.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qshareddata.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtCore/qsharedpointer.h \
@@ -442,6 +446,7 @@
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qfontinfo.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qfontmetrics.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qguiapplication.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qicon.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qimage.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qinputmethod.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qkeysequence.h \
@@ -457,13 +462,44 @@
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qtgui-config.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qtguiglobal.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qtransform.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qvalidator.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtGui/qwindowdefs.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QApplication \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QCheckBox \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QComboBox \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QDialog \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QDoubleSpinBox \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QGridLayout \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QHBoxLayout \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QLabel \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QPushButton \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QSpacerItem \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QSpinBox \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QVBoxLayout \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/QWidget \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qabstractslider.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qapplication.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qcheckbox.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qcombobox.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qdialog.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qframe.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qgridlayout.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qlabel.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qlayout.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qpushbutton.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qrubberband.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qslider.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qspinbox.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qstyle.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qstyleoption.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qtabbar.h \
+  /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qtabwidget.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
   /Users/kylezhou/opt/anaconda3/include/qt/QtWidgets/qwidget.h \

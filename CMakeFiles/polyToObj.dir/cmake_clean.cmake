@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/polyToObj.dir/polyToObj.cpp.o"
-  "CMakeFiles/polyToObj.dir/polyToObj.cpp.o.d"
   "polyToObj"
   "polyToObj.pdb"
 )
