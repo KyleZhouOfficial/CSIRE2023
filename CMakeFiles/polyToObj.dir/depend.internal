@@ -491,6 +491,15 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/Plane_3.h
  /usr/local/include/CGAL/Point_2.h
  /usr/local/include/CGAL/Point_3.h
+ /usr/local/include/CGAL/Polygon_2.h
+ /usr/local/include/CGAL/Polygon_2/Polygon_2_algorithms_impl.h
+ /usr/local/include/CGAL/Polygon_2/Polygon_2_edge_circulator.h
+ /usr/local/include/CGAL/Polygon_2/Polygon_2_edge_iterator.h
+ /usr/local/include/CGAL/Polygon_2/Polygon_2_impl.h
+ /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
+ /usr/local/include/CGAL/Polygon_2/Polygon_2_vertex_circulator.h
+ /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
+ /usr/local/include/CGAL/Polygon_2_algorithms.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -541,6 +550,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o
  /usr/local/include/CGAL/Triangulation_ds_iterators_2.h
  /usr/local/include/CGAL/Triangulation_ds_vertex_base_2.h
  /usr/local/include/CGAL/Triangulation_face_base_2.h
+ /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h
  /usr/local/include/CGAL/Triangulation_structural_filtering_traits.h
  /usr/local/include/CGAL/Triangulation_utils_2.h
  /usr/local/include/CGAL/Triangulation_vertex_base_2.h

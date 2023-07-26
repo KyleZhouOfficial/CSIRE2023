@@ -490,6 +490,15 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Origin_impl.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Plane_3.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Point_2.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Point_3.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/Polygon_2_algorithms_impl.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/Polygon_2_edge_circulator.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/Polygon_2_edge_iterator.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/Polygon_2_impl.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/Polygon_2_vertex_circulator.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Polygon_2_algorithms.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Profile_counter.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Quotient.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Quotient_fwd.h
@@ -540,6 +549,7 @@ CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_ds_iterators_2.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_ds_vertex_base_2.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_face_base_2.h
+CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_structural_filtering_traits.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_utils_2.h
 CMakeFiles/polyToObj.dir/polyToObj.cpp.o: /usr/local/include/CGAL/Triangulation_vertex_base_2.h
